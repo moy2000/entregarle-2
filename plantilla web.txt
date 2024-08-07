@@ -1,0 +1,89 @@
+{
+  "website": {
+    "name": "Bebidas Alcohólicas",
+    "description": "Explora una amplia variedad de bebidas alcohólicas de todo el mundo.",
+    "categories": [
+      {
+        "id": 1,
+        "name": "Cervezas",
+        "description": "Una selección de las mejores cervezas.",
+        "beverages": [
+          {
+            "id": 101,
+            "name": "Corona Extra",
+            "type": "Lager",
+            "alcohol_content": "4.5%",
+            "origin": "México",
+            "description": "Una cerveza clara y ligera con un sabor refrescante.",
+            "price": "$2.50",
+            "image_url": "https://example.com/images/corona_extra.jpg"
+          },
+          {
+            "id": 102,
+            "name": "Heineken",
+            "type": "Lager",
+            "alcohol_content": "5.0%",
+            "origin": "Países Bajos",
+            "description": "Una cerveza premium con un sabor suave y equilibrado.",
+            "price": "$3.00",
+            "image_url": "https://example.com/images/heineken.jpg"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Vinos",
+        "description": "Descubre nuestros vinos seleccionados.",
+        "beverages": [
+          {
+            "id": 201,
+            "name": "Cabernet Sauvignon",
+            "type": "Tinto",
+            "alcohol_content": "13.5%",
+            "origin": "Chile",
+            "description": "Un vino tinto robusto con notas de frutas rojas y roble.",
+            "price": "$15.00",
+            "image_url": "https://example.com/images/cabernet_sauvignon.jpg"
+          },
+          {
+            "id": 202,
+            "name": "Chardonnay",
+            "type": "Blanco",
+            "alcohol_content": "12.0%",
+            "origin": "Francia",
+            "description": "Un vino blanco seco con sabores de frutas tropicales.",
+            "price": "$12.00",
+            "image_url": "https://example.com/images/chardonnay.jpg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Licores",
+        "description": "Licores para todos los gustos.",
+        "beverages": [
+          {
+            "id": 301,
+            "name": "Whiskey Jameson",
+            "type": "Whiskey",
+            "alcohol_content": "40.0%",
+            "origin": "Irlanda",
+            "description": "Un whiskey irlandés suave y equilibrado.",
+            "price": "$25.00",
+            "image_url": "https://example.com/images/jameson.jpg"
+          },
+          {
+            "id": 302,
+            "name": "Vodka Absolut",
+            "type": "Vodka",
+            "alcohol_content": "40.0%",
+            "origin": "Suecia",
+            "description": "Un vodka premium con un sabor limpio y puro.",
+            "price": "$20.00",
+            "image_url": "https://example.com/images/absolut.jpg"
+          }
+        ]
+      }
+    ]
+  }
+}
